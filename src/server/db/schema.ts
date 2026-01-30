@@ -12,7 +12,7 @@ import {
 } from "drizzle-orm/pg-core";
 
 // Media type enum
-export const mediaTypeEnum = pgEnum("type", [
+export const mediaTypeEnum = pgEnum("media_type", [
   "short",
   "image",
   "video",
